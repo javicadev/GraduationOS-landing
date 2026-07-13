@@ -27,47 +27,16 @@
 
 ---
 
-## 🚀 Despliegue y Ejecución Local
+## 📦 Acceso a la Plataforma Completa
 
-Sigue estos sencillos pasos para levantar y probar la landing page en tu máquina local:
+Este repositorio contiene únicamente la landing page comercial e interactiva de **GraduationOS**. 
 
-### Requisitos Previos
+La suite de software completa (que incluye la base de datos activa en tiempo real, el portal del alumno para selección de asientos, la consola de administración real de solicitudes, el sistema de escaneo de códigos QR y las Cloud Functions de Firebase) es **privada**.
 
-*   Node.js 18.0 o superior instalado.
-*   npm o yarn configurado.
+Para solicitar una demostración personalizada de la plataforma completa, adquirir una licencia para tu facultad o acceder al código fuente completo de producción, ponte en contacto directo con el desarrollador principal:
 
-### Instalación
-
-1.  **Clona el repositorio:**
-    ```bash
-    git clone https://github.com/javicadev/GraduationOS.git
-    cd GraduationOS
-    ```
-
-2.  **Instala las dependencias de la aplicación:**
-    ```bash
-    npm install
-    ```
-
-3.  **Inicia el servidor de desarrollo:**
-    ```bash
-    npm run dev
-    ```
-    Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver la landing page interactiva.
-
-4.  **Compila el sitio para producción:**
-    ```bash
-    npm run build
-    ```
-
----
-
-## 📦 Estructura del Proyecto
-
-*   `src/app/page.tsx`: Landing page comercial interactiva (cuenta con simuladores en vivo del Mapa Fiel, Wallet y Consola Admin).
-*   `src/app/layout.tsx` & `globals.css`: Estilos globales y fuentes optimizadas del sistema Apple.
-*   `public/`: Recursos gráficos, iconos y sonidos del proyecto.
-*   `graduationos-app-full/` (Excluido mediante `.gitignore`): Respaldo completo y privado con el backend real en Firebase, servicios de correo, generadores de PDF/Wallet y la lógica completa de alumno/administrador.
+*   **Telegram:** [@javicadev](https://t.me/javicadev)
+*   **Email:** [hello@javicadev.com](mailto:hello@javicadev.com)
 
 ---
 
