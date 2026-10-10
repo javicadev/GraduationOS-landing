@@ -15,23 +15,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "GraduationOS",
   description: "Sistema de Gestión de Graduaciones",
-  manifest: "/manifest.json",
-  icons: {
-    apple: "/icon.png",
-  },
-  appleWebApp: {
-    capable: true,
-    statusBarStyle: "black-translucent",
-    title: "GradOS",
-  },
 };
 
 export const viewport = {
   themeColor: "#000000",
   width: "device-width",
   initialScale: 1,
-  maximumScale: 1,
-  userScalable: false, // Evita zoom al hacer tapas rápidos en escáner
 };
 
 export default function RootLayout({
@@ -40,7 +29,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="es">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
