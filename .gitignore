@@ -1,116 +1,76 @@
+# Dependencias
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js / compilación
+.next/
+out/
+build/
+dist/
+next-env.d.ts
+*.tsbuildinfo
+
+# Testing
+coverage/
+.nyc_output/
+
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-lerna-debug.log*
+.pnpm-debug.log*
 
-# Diagnostic reports
-report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
-# Pids
-*.pid
-*.seed
-*.pid.lock
-
-# lib-cov
-lib-cov
-
-# Coverage directory used by tools like istanbul
-coverage
-*.lcov
-
-# nyc test coverage
-.nyc_output
-
-# Grunt intermediate storage
-.grunt
-
-# Bower dependency directory
-bower_components
-
-# node-waf configuration
-.lock-wscript
-
-# Compiled binary addons
-build/Release
-
-# Dependency directories
-node_modules/
-jspm_packages/
-
-# TypeScript v1 declaration files
-typings/
-
-# TypeScript cache
-*.tsbuildinfo
-
-# Optional npm cache directory
-.npm
-
-# Optional eslint cache
-.eslintcache
-
-# Microbundle cache
-.rpt2_cache/
-.rts2_cache_cjs/
-.rts2_cache_es/
-.rts2_cache_umd/
-
-# Optional REPL history
-.node_repl_history
-
-# Output of 'npm pack'
-*.tgz
-
-# Yarn Integrity file
-.yarn-integrity
-
-# dotenv environment variables file
-.env
-.env.test
-.env.production
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# parcel-bundler cache
-.cache
-
-# Next.js build output
-.next
-
-# Nuxt.js build / generate output
-.nuxt
-dist
-
-# Gatsby files
+# Cachés
 .cache/
-public
+.eslintcache
+.npm/
 
-# vuepress build output
-.vuepress/dist
-
-# Serverless directories
-.serverless/
-
-# FuseBox cache
-.fusebox/
-
-# DynamoDB Local files
-.dynamodb/
-
-# TernJS port file
-.tern-port
-
-# Mac OS
+# Sistema operativo y editores
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
 
-# Local App Files
-CONTROL GRADUACION GRADO.xlsx
-CONTROL GRADUACION MASTER.xlsx
+# Variables de entorno y secretos (nunca subir claves de ningún tipo)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.cer
+*.crt
+*.mobileprovision
+*.keystore
+*service-account*.json
+*serviceAccount*.json
+*firebase-adminsdk*.json
+.firebase/
+.firebaserc
+.vercel/
 
+# Datos: hojas de cálculo, CSV, bases de datos y documentos oficiales
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+*.tsv
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.pdf
+*.docx
+*.doc
+
+# Copias o carpetas locales de la aplicación completa
 graduationos-app-full/
-
