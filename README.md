@@ -48,4 +48,10 @@ Para solicitar una demostración personalizada de la plataforma completa, adquir
 
 ---
 
+## 📄 Licencia
+
+Este repositorio es público para que puedas ver la landing, **pero no es software de código abierto**. Todos los derechos están reservados: no se permite copiar, modificar, redistribuir ni reutilizar el código, el diseño ni los textos sin autorización por escrito. Consulta el archivo [LICENSE](./LICENSE). Si te interesa algo de esto, escríbeme a [hello@javicadev.com](mailto:hello@javicadev.com).
+
+---
+
 Desarrollado y mantenido por [@javicadev](https://github.com/javicadev).
